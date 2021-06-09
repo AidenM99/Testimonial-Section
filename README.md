@@ -26,7 +26,7 @@ layout for the site depending on their device's screen size
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://aidenm99.github.io/Testimonial-Section/
 
 ## My process
 
