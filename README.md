@@ -17,8 +17,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### The challenge
 
-Users should be able to: Recreate the testimonal section as accurately as possible to the design spec provided, making use of CSS Grid and view the optimal 
-layout for the site depending on their device's screen size
+- Recreate the testimonal section as accurately as possible to the design spec provided, making use of CSS grid
+- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
@@ -39,8 +39,33 @@ layout for the site depending on their device's screen size
 
 ### What I learned
 
-I learned a lot about CSS Grid in the making of this project. Specifically, I learned how to utilise grid lines to achieve my desired layout.
+- How to use CSS grid to achieve my desired layout
+
+```css
+.grid {
+  display: grid;
+  grid-gap: 2rem;
+  max-width:1500px;
+  grid-template-rows: auto;
+}
+```
+
+- A way of selecting all child elements of a particular element
+
+```css
+.grid > div {
+  border-radius: 10px;
+}
+```
+
+- How to use the Z index to change the stacking order of elements 
+
+```css
+img {
+  z-index:2;
+}
+```
 
 ### Continued development
 
-I still have a lot to learn about CSS Grid, I plan to build more projects making use of it so that I can learn more of its concepts.
+- I still have a lot to learn about CSS Grid, I plan to build more projects making use of it so that I can learn more of its concepts.
